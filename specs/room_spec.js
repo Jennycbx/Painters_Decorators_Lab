@@ -7,12 +7,12 @@ describe('Room', function () {
     let room;
 
     beforeEach(function () {
-        room = new Room(50, false)
+        room = new Room(10, false)
     })
 
     it('should have an area', function () {
         const actual = room.area;
-        assert.strictEqual(actual, 50)
+        assert.strictEqual(actual, 10)
 
     })
 
